@@ -1,4 +1,4 @@
-# mult_fidelity_free_energy
+# multi_fidelity_free_energy
 
 
 Multi-Fidelity Gaussian process integrator based on and for [alchemlyb](https://github.com/alchemistry/alchemlyb).
