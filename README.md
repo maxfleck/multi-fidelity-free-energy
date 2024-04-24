@@ -3,7 +3,7 @@
 
 Multi-Fidelity Gaussian process integrator based on and for [alchemlyb](https://github.com/alchemistry/alchemlyb).
 
-Free-energy estimations of protein mutations, solvation,... are analogous to the situation where the weight of the captain is estimated by weighting the boat, with or without the captain on board. As a result, unnecessarily long simulation times may be required to reach sufficiently small uncertainties in the two individual free-enthalpy determinations.
+Free-energy estimations of protein mutations, solvation,... are analogous to the situation where the weight of the captain is estimated by weighting the boat, with or without the captain on board. As a result, unnecessarily long simulation times may be required to reach sufficiently small uncertainties in the two individual free-energy determinations.
 This approach allows known patterns to be used to determine free-energy differences with relatively few samples. The integrator learns the pattern from a known or rather cheap reference together with the actual goal. If the patterns match, information can be transferred from the reference to the actual target and used.
 
 Protein mutations serve as an example. The pattern of the same mutation in a tripeptide, which is relatively cheap to simulate, can be used to predict the free energy change of the same mutation in a protein more efficiently.
